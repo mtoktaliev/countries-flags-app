@@ -17,6 +17,7 @@ const Controls = ({handleSearch}) => {
     useEffect(() => {
         const regionValue = region?.value || '';
         handleSearch(search, regionValue)
+        // eslint-disable-next-line
     }, [search, region])
     return (
         <div className='flex justify-between items-center container max-w-screen-xl mx-auto'>

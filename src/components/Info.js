@@ -4,7 +4,7 @@ import { filterByCode } from '../config';
 import { Link } from 'react-router-dom';
 
 const Info = ({country}) => {
-    console.log(country)
+    
     const [neighbors, setNeighbors] = useState([]);
 
     useEffect(() => {
